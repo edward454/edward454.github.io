@@ -1,0 +1,249 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #000;
+}
+
+h3{
+	text-align: left;
+}
+
+#header{
+	width: 100%;
+	height: 60px;
+	background-color:#000;
+	position: fixed;
+	color: #fff;
+	opacity: 0.6;
+}
+
+
+
+#header ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	padding-right: 10px;
+	font-family: 'Kreon', serif;
+}
+
+
+#header ul li{
+	float: right;
+	padding: 10px;
+	list-style-type: none;
+
+}
+
+#FirstBackground img{
+	width: 100%;
+	height: 1000px;	
+	overflow: none;
+}
+
+
+h1{
+ 	color: #fff;
+ 	position: absolute;
+ 	font-family: 'Inconsolata';
+ 	bottom: 50%;
+ 	left: 35%;
+ 	cursor: pointer;
+ }
+
+#MyProject{
+	position: absolute;
+	padding-left: 10px;
+}
+
+#WebApps{
+	width: 100%;
+	height: 450px;
+	margin: 0px;
+	padding-top: 0px;
+	background-color: #000;
+}
+
+#WebApps{
+	color: #fff;
+	font-family: 'Kreon', serif;
+	padding-left: 1%;
+	text-align: center;
+}
+#WebApps h2{
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 
+	0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1),
+	 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px 
+	 rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px 
+	 rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+
+	 font-size: 40px;
+}
+
+#WebApps img{
+	width: 50%;
+	height: 700px;
+	float: left;
+}
+
+#FirstWebAppsContent h3{
+	font-family: 'Righteous', cursive;
+	opacity: 0.001;
+	margin-top: 0px;
+}
+
+#WebAppsSlideShow{
+	padding-top: 25px;
+}
+#LinkRollBoards{
+	font-family: 'Kreon', serif;
+	font-size: 100px;
+	cursor: pointer;
+}
+
+#Arrow{
+	width: 10px;
+	height: 10px;
+	padding-right: 100px;
+	position: absolute;
+	top: 1550px;
+}
+
+#AfterLoginImage{
+	display: none;
+}
+
+#FirstDisplayImage{
+	display: none;
+}
+
+#AndroidApps{
+	padding-top: 20px;
+	height: 800px;
+}
+
+#AndroidApps h2{
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 
+	0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1),
+	 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px 
+	 rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px 
+	 rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+
+	 font-size: 40px;
+}
+
+#AndroidApps h3{
+	font-size: 1.5vw;
+	padding-left: 10%;
+}
+
+#AndroidApps a{
+	font-size: 0.8vw;
+	padding-left: 10%;
+}
+
+#AndroidApps img{
+	width: 50%;
+	height: 700px;
+	float: left;
+}
+
+
+
+#BackButton img{
+	width: 100px;
+	height: 100px;
+	float: right;
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+
+.BackHome{
+	float: left;
+	position: absolute;
+	top: 1870px;
+	padding-left: 130px;
+	display: none;
+}
+
+#FirstAndroidAppsContent{
+	color: #fff;
+	font-family: 'Righteous', cursive;
+	float: right;
+	padding-right: 90px;
+	padding-top: 0px;
+	font-size: 22px;
+}
+
+.SkillApplied{
+	position: absolute;
+	top: 1780px;
+	font-family: 'Righteous', cursive;
+	font-size: 20px;
+	left: 60%;
+}
+
+#FirstAndroidAppsContent a{
+	font-size: 40px;
+	text-decoration: none;
+	color: #94b1c4;
+}
+
+.DropDownImage {
+	position: absolute;
+	left: 50%;
+	top: 1890px;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.LeftButtonImage{
+	position: absolute;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    left: 0%;
+    top: 1880px;
+    cursor: pointer;
+}
+
+.NextButtonImage{
+	position: absolute;
+	right: 0%;
+    top: 1880px;
+    cursor: pointer;
+}
+
+.NextProject{
+	position: absolute;
+	top: 1870px;
+	right: 8%;
+	display: none;
+}
+.DropContent h2{
+	position: absolute;
+	top: 1880px;
+	padding-left: 23%;
+}
+
+.PreviousProject{
+	position: absolute;
+	top: 1880px;
+	padding-left: 110px;.
+	text-align: left;
+	font-size: 1.5vw;
+	display: none;
+}
+
+.AnotherAndroidProject{
+	display: none;
+	font-size: 1.5vw;
+}
+
+
+
